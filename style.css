@@ -1,0 +1,65 @@
+body{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 100px;
+    gap: 10px;
+}
+
+h1{
+    grid-column-end:3 ;
+
+}
+form{
+    grid-row-start: 2;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    margin :10px;
+    padding: 10px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,01);
+    border-radius: 8px;
+
+}
+input{
+    border-radius: 4px;
+    outline: none;
+    border-style: none;
+    padding: 3px;
+    padding-left: 6px;
+    margin-bottom: 10px;
+}
+
+.radio-container{
+    display: flex;
+}
+.main{
+    grid-column-start:2 ;
+    grid-row-start: 2;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 1);
+}
+
+table{
+    overflow: scroll;
+    
+
+}
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    border:1px solid rgb(118, 75, 143);
+    
+  }
+
+  button{
+    background-color: gold;
+    border-style: none ;
+    cursor: pointer;
+    margin: 3px;
+  }
+
